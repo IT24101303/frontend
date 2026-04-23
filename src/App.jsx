@@ -8,7 +8,7 @@ function App() {
     const [editingId, setEditingId] = useState(null)
 
     // UPDATE THIS WITH YOUR RAILWAY URL LATER
-    const API_URL = 'http://backend-production-dc5b.up.railway.app/api/items'
+    const API_URL = 'https://backend-production-dc5b.up.railway.app/api/items'
 
     useEffect(() => {
         fetchItems()
